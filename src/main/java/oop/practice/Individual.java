@@ -1,11 +1,16 @@
 package oop.practice;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import oop.practice.enums.Traits;
 
 import java.util.List;
 
 public class Individual {
+
+    // using reference types for having null values
     private Integer id;
+
+    @JsonProperty("isHumanoid") // i dont know why i need this but this fixed the problem
     private Boolean isHumanoid;
     private Integer age;
     private String planet;
@@ -64,7 +69,13 @@ public class Individual {
 
     @Override
     public String toString() {
-        return String.format("Individual: id: %s, isHumanoid: %s, age: %s, planet: %s",
-                id, isHumanoid, age, planet);
+        String traitsString = traits != null ?
+                traits.stream()
+                        .map(Traits::name) // Assuming Traits enum has a name() method
+                        .reduce((trait1, trait2) -> trait1 + ", " + trait2)
+                        .orElse("None") : "None"; // Fallback if traits is null
+
+        return String.format("Individual: id: %s, isHumanoid: %s, age: %s, planet: %s, traits: [%s]",
+                id, isHumanoid, age, planet, traitsString);
     }
 }
