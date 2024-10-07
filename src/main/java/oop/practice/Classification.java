@@ -3,6 +3,7 @@ package oop.practice;
 import oop.practice.enums.Traits;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Classification {
 
@@ -74,6 +75,14 @@ public class Classification {
                 planet,
                 maxAge,
                 traitsString);
+    }
+
+    public boolean matches(Individual individual) {
+        boolean planetMatches = individual.getPlanet() == null ||  Objects.equals(individual.getPlanet(), this.planet);
+        boolean ageMatches = individual.getAge() == null || individual.getAge() <= this.maxAge;
+        boolean humanoidMatches = individual.isHumanoid() == null || Objects.equals(individual.isHumanoid(), this.isHumanoid);
+        boolean traitsMatch = individual.getTraits() == null || this.traits.containsAll(individual.getTraits());
+        return planetMatches && ageMatches && humanoidMatches && traitsMatch;
     }
 
 }
