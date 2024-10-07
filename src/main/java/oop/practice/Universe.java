@@ -1,6 +1,7 @@
 package oop.practice;
 
 import java.util.List;
+import java.util.Objects;
 
 
 public class Universe {
@@ -17,6 +18,12 @@ public class Universe {
         this.classifications = classifications;
         this.individuals = individuals;
     }
+
+    public Universe(String name, List<Individual> individuals) {
+        this.name = name;
+        this.individuals = individuals;
+    }
+
 
     public String getName() {
         return name;
@@ -44,12 +51,26 @@ public class Universe {
 
     @Override
     public String toString() {
-        // Create a formatted string for the classifications
-        String classificationToString = String.join("\n",
-                classifications.stream().map(Classification::toString).toArray(String[]::new));
+        String classificationToString;
 
+        // Check if classifications is null and provide default value if necessary
+        if (classifications == null) {
+            classificationToString = "No classifications\n";
+        } else {
+            classificationToString = String.join("\n",
+                    classifications.stream()
+                            .filter(Objects::nonNull) // Handle possible null classifications
+                            .map(Classification::toString)
+                            .toArray(String[]::new)
+            );
+        }
+
+        // Format the output string with the universe details
         return String.format("------ Universe -------- \n" +
-                "Name: %s, %d classifications:\n%s", name, classifications.size(), classificationToString);
+                        "Name: %s, %d classifications:\n%s", name,
+                classifications != null ? classifications.size() : 0,
+                classificationToString);
     }
+
 }
 

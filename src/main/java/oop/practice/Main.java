@@ -33,7 +33,10 @@ public class Main {
         rings.getClassifications().add(new Classification("Dwarf", true, 200, "Earth",
                 new ArrayList<>(List.of(Traits.SHORT, Traits.BULKY))));
 
-        List<Universe> metaverse = List.of(starWars, marvel, hitchhikers, rings);
+
+        Universe theVoid = new Universe("void",new ArrayList<>());
+
+        List<Universe> metaverse = List.of(starWars, marvel, hitchhikers, rings, theVoid);
 
         metaverse.forEach(System.out::println);
 
@@ -44,14 +47,28 @@ public class Main {
 
             Set<Universe> suitableUniverses = new HashSet<>();
 
-            metaverse.forEach
-                    (universe -> universe.getClassifications().forEach(classification -> {
-                        if (classification.matches(individual)) suitableUniverses.add(universe);
-                    }));
+            metaverse.forEach(universe -> {
+                if (!"void".equals(universe.getName())) {
+                    universe.getClassifications().forEach(classification -> {
+                        if (classification.matches(individual)) {
+                            suitableUniverses.add(universe);
+                        }
+                    });
+                }
+            });
 
-            System.out.println(individual);
-            suitableUniverses.forEach((universe -> System.out.println(universe.getName())));
 
+            if (suitableUniverses.size() == 1) {
+                Iterator<Universe> iterator = suitableUniverses.iterator();
+                if (iterator.hasNext()) {
+                    Universe universe = iterator.next();
+                    universe.getIndividuals().add(individual);
+
+                }
+            }
+            else {
+                theVoid.getIndividuals().add(individual);
+            }
         }
     }
 }
