@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonCreation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Universe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/Universe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <updated>1728299044574</updated>
       <workItem from="1728299045810" duration="8961000" />
       <workItem from="1728312839833" duration="9051000" />
-      <workItem from="1728324109164" duration="1675000" />
+      <workItem from="1728324109164" duration="2622000" />
     </task>
     <servers />
   </component>

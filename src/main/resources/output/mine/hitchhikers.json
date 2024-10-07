@@ -1,0 +1,25 @@
+{
+  "name" : "hitchhikers",
+  "individuals" : [ {
+    "id" : 2,
+    "age" : 128,
+    "planet" : null,
+    "traits" : [ "GREEN" ],
+    "humanoid" : false,
+    "isHumanoid" : false
+  }, {
+    "id" : 4,
+    "age" : 26,
+    "planet" : null,
+    "traits" : [ "EXTRA_ARMS" ],
+    "humanoid" : null,
+    "isHumanoid" : null
+  }, {
+    "id" : 5,
+    "age" : null,
+    "planet" : null,
+    "traits" : [ "BULKY" ],
+    "humanoid" : false,
+    "isHumanoid" : false
+  } ]
+}

@@ -70,5 +70,9 @@ public class Main {
                 theVoid.getIndividuals().add(individual);
             }
         }
+
+        IndividualJsonCreation individualJsonCreation = new IndividualJsonCreation(metaverse);
+        individualJsonCreation.createJsonForUniverses();
+
     }
 }

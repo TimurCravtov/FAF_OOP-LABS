@@ -1,0 +1,11 @@
+{
+  "name" : "rings",
+  "individuals" : [ {
+    "id" : 3,
+    "age" : 7523,
+    "planet" : null,
+    "traits" : null,
+    "humanoid" : true,
+    "isHumanoid" : true
+  } ]
+}
