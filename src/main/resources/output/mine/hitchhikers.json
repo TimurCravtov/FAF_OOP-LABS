@@ -1,25 +1,53 @@
 {
   "name" : "hitchhikers",
   "individuals" : [ {
+    "id" : 1,
+    "age" : 59,
+    "planet" : "Betelgeuse",
+    "traits" : [ "EXTRA_ARMS", "EXTRA_HEAD" ],
+    "humanoid" : true,
+    "isHumanoid" : true
+  }, {
     "id" : 2,
-    "age" : 128,
+    "age" : null,
     "planet" : null,
-    "traits" : [ "GREEN" ],
+    "traits" : [ "BULKY" ],
     "humanoid" : false,
     "isHumanoid" : false
   }, {
-    "id" : 4,
+    "id" : 6,
     "age" : 26,
     "planet" : null,
     "traits" : [ "EXTRA_ARMS" ],
     "humanoid" : null,
     "isHumanoid" : null
   }, {
-    "id" : 5,
-    "age" : null,
+    "id" : 8,
+    "age" : 82,
     "planet" : null,
-    "traits" : [ "BULKY" ],
+    "traits" : [ "EXTRA_HEAD" ],
+    "humanoid" : null,
+    "isHumanoid" : null
+  }, {
+    "id" : 11,
+    "age" : 128,
+    "planet" : null,
+    "traits" : [ "GREEN" ],
     "humanoid" : false,
     "isHumanoid" : false
+  }, {
+    "id" : 16,
+    "age" : 128,
+    "planet" : "Vogsphere",
+    "traits" : [ "GREEN", "BULKY" ],
+    "humanoid" : false,
+    "isHumanoid" : false
+  }, {
+    "id" : 21,
+    "age" : 45,
+    "planet" : "Betelgeuse",
+    "traits" : [ "EXTRA_ARMS", "EXTRA_HEAD" ],
+    "humanoid" : null,
+    "isHumanoid" : null
   } ]
 }

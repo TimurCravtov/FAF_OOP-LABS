@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="850a0b69-ff93-47f5-87cc-325528d0cd3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/Classification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonParsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonParsing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/hitchhikers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/hitchhikers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/marvel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/marvel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/rings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/rings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/starwars.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/starwars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/void.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main2&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "oop-intro-classification-system",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,11 +80,29 @@
       <updated>1728299044574</updated>
       <workItem from="1728299045810" duration="8961000" />
       <workItem from="1728312839833" duration="9051000" />
-      <workItem from="1728324109164" duration="2622000" />
+      <workItem from="1728324109164" duration="4843000" />
+      <workItem from="1728370511833" duration="2554000" />
+      <workItem from="1728388304639" duration="731000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/oop/practice/Main.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="oop.practice.Individual" memberName="planet" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
