@@ -16,8 +16,8 @@ public class IndividualJsonCreation {
 
     // Inner class representing the JSON structure (made static and added getters)
     public static class UniverseInner {
-        private String name;
-        private List<Individual> individuals;
+        private final String name;
+        private final List<Individual> individuals;
 
         UniverseInner(Universe u) {
             this.name = u.getName();

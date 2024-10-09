@@ -10,7 +10,7 @@ public class Individual {
     // using reference types for having null values
     private Integer id;
 
-    @JsonProperty("isHumanoid") // i dont know why i need this but this fixed the problem
+    @JsonProperty("isHumanoid")
     private Boolean isHumanoid;
     private Integer age;
     private String planet;
@@ -43,11 +43,11 @@ public class Individual {
         this.age = age;
     }
 
-    public Boolean isHumanoid() {
+    public Boolean getIsHumanoid() {
         return isHumanoid;
     }
 
-    public void setHumanoid(Boolean isHumanoid) {
+    public void setIsHumanoid(Boolean isHumanoid) {
         this.isHumanoid = isHumanoid;
     }
 

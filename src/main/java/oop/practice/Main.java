@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Universe starWars = new Universe("starwars", new ArrayList<>(), new ArrayList<>());
-        starWars.getClassifications().add(new Classification("Wookie", false, 400, "Kashyyk",
+        starWars.getClassifications().add(new Classification("Wookie", false, 400, "Kashyyyk",
                 new ArrayList<>(List.of(Traits.HAIRY, Traits.TALL))));
         starWars.getClassifications().add(new Classification("Ewok", false, 60, "Endor",
                 new ArrayList<>(List.of(Traits.SHORT, Traits.HAIRY))));
@@ -29,7 +29,7 @@ public class Main {
 
         Universe rings = new Universe("rings", new ArrayList<>(), new ArrayList<>());
         rings.getClassifications().add(new Classification("Elf", true, Integer.MAX_VALUE, "Earth",
-                new ArrayList<>(List.of(Traits.BLONDE, Traits.POINTY_EARS))));
+                new ArrayList<>(List.of(Traits.BLONDE, Traits.POINTY_EARS, Traits.TALL))));
         rings.getClassifications().add(new Classification("Dwarf", true, 200, "Earth",
                 new ArrayList<>(List.of(Traits.SHORT, Traits.BULKY))));
 
