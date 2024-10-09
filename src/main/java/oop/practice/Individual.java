@@ -10,7 +10,7 @@ public class Individual {
     // using reference types for having null values
     private Integer id;
 
-    @JsonProperty("isHumanoid") // i dont know why i need this but this fixed the problem
+    @JsonProperty("isHumanoid")
     private Boolean isHumanoid;
     private Integer age;
     private String planet;

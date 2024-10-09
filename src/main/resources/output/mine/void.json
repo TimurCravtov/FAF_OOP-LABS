@@ -1,11 +1,4 @@
 {
   "name" : "void",
-  "individuals" : [ {
-    "id" : 17,
-    "age" : 154,
-    "planet" : null,
-    "traits" : [ "BLONDE", "TALL" ],
-    "humanoid" : true,
-    "isHumanoid" : true
-  } ]
+  "individuals" : [ ]
 }

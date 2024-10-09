@@ -9,7 +9,7 @@ import java.util.List;
 
 public class IndividualJsonParsing {
 
-    public final String INPUT_PATH = "src/main/resources/input.json";
+    public final String INPUT_PATH = "src/main/resources/test-input.json";
 
     // Inner class to represent the JSON structure
     static class IndividualData {
