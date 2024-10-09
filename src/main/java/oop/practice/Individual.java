@@ -43,11 +43,11 @@ public class Individual {
         this.age = age;
     }
 
-    public Boolean isHumanoid() {
+    public Boolean getIsHumanoid() {
         return isHumanoid;
     }
 
-    public void setHumanoid(Boolean isHumanoid) {
+    public void setIsHumanoid(Boolean isHumanoid) {
         this.isHumanoid = isHumanoid;
     }
 

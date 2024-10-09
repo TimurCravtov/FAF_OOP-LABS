@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="850a0b69-ff93-47f5-87cc-325528d0cd3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/Individual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonParsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonParsing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/hitchhikers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/hitchhikers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/marvel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/marvel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/rings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/rings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/starwars.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/starwars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/void.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/void.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +80,7 @@
       <workItem from="1728417224072" duration="295000" />
       <workItem from="1728417564359" duration="599000" />
       <workItem from="1728451989802" duration="14000" />
+      <workItem from="1728469836472" duration="1310000" />
     </task>
     <servers />
   </component>
@@ -94,15 +88,6 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/oop/practice/Main.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="oop.practice.Individual" memberName="planet" />

@@ -81,7 +81,7 @@ public class Classification {
     public boolean matches(Individual individual) {
         boolean planetMatches = individual.getPlanet() == null || Objects.equals(individual.getPlanet(), this.planet);
         boolean ageMatches = individual.getAge() == null || individual.getAge() <= this.maxAge;
-        boolean humanoidMatches = individual.isHumanoid() == null || Objects.equals(individual.isHumanoid(), this.isHumanoid);
+        boolean humanoidMatches = individual.getIsHumanoid() == null || Objects.equals(individual.getIsHumanoid(), this.isHumanoid);
         boolean traitsMatch = individual.getTraits() == null || !Collections.disjoint(this.traits, individual.getTraits());
         return planetMatches && ageMatches && humanoidMatches && traitsMatch;
     }
