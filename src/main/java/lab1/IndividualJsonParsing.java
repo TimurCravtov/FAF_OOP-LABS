@@ -1,4 +1,4 @@
-package oop.practice;
+package lab1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -9,7 +9,8 @@ import java.util.List;
 
 public class IndividualJsonParsing {
 
-    public final String INPUT_PATH = "src/main/resources/test-input.json";
+    // TODO use as parameter
+    public final String INPUT_PATH = "src/main/resources/input.json";
 
     // Inner class to represent the JSON structure
     static class IndividualData {

@@ -1,9 +1,8 @@
-package oop.practice;
+package lab1;
 
-import oop.practice.enums.Traits;
+import lab1.enums.Traits;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Objects;
 
 public class Classification {

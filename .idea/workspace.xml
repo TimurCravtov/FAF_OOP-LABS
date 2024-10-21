@@ -6,6 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="850a0b69-ff93-47f5-87cc-325528d0cd3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Classification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Individual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/IndividualJsonParsing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/Universe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/enums/Planets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/practice/enums/Traits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/hitchhikers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/hitchhikers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/hitchhikers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/hitchhikers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/marvel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/marvel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/rings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/rings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/starwars.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/starwars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/void.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output/mine/void.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +59,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;oop-intro-classification-system&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/OOP_LABS/src/main/java/lab1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,6 +69,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\OOP_LABS\src\main\java\lab1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +104,16 @@
       <workItem from="1728469836472" duration="1513000" />
       <workItem from="1728473772009" duration="6000" />
       <workItem from="1728474786527" duration="9000" />
-      <workItem from="1728499908068" duration="1092000" />
+      <workItem from="1728499908068" duration="2586000" />
+      <workItem from="1728832002935" duration="1524000" />
+      <workItem from="1728917508166" duration="653000" />
+      <workItem from="1729010340006" duration="4000" />
+      <workItem from="1729010422733" duration="1267000" />
+      <workItem from="1729057767177" duration="1388000" />
+      <workItem from="1729101181999" duration="180000" />
+      <workItem from="1729101656917" duration="47000" />
+      <workItem from="1729140479019" duration="51000" />
+      <workItem from="1729499705713" duration="1625000" />
     </task>
     <servers />
   </component>

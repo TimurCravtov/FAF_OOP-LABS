@@ -1,4 +1,4 @@
-package oop.practice;
+package lab1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

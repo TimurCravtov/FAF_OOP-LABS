@@ -1,7 +1,7 @@
-package oop.practice;
+package lab1;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import oop.practice.enums.Traits;
+import lab1.enums.Traits;
 
 import java.util.List;
 

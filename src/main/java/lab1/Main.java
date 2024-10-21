@@ -1,10 +1,7 @@
-package oop.practice;
+package lab1;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import oop.practice.enums.Traits;
+import lab1.enums.Traits;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
