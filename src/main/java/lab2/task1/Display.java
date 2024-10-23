@@ -16,7 +16,7 @@ public class Display {
     public Display() {}
 
     // Returns the difference in sizes between first - second screen areas
-    float compareSize(Display second) {
+    public float compareSize(Display second) {
         float intermediate = this.height * this.width - second.getHeight() * second.getWidth();
         double EPS = Math.pow(10, -6); // To avoid floating point precision issues
 
@@ -27,7 +27,7 @@ public class Display {
         }
     }
 
-    void printComparisonSizeResult(Display second) {
+    public void printComparisonSizeResult(Display second) {
         float comparisonResult = this.compareSize(second);
 
         if (comparisonResult == 0) {
@@ -43,11 +43,11 @@ public class Display {
         }
     }
 
-    float comparePpi(Display second) {
+    public float comparePpi(Display second) {
         return this.ppi - second.getPpi();
     }
 
-    void printComparisonPpiResult(Display second) {
+    public void printComparisonPpiResult(Display second) {
         float comparisonResult = this.comparePpi(second);
 
         if (comparisonResult == 0) {
@@ -63,7 +63,7 @@ public class Display {
         }
     }
 
-    void printComparisonFull(Display second) {
+    public void printComparisonFull(Display second) {
         this.printComparisonSizeResult(second);
         this.printComparisonPpiResult(second);
     }
