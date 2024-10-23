@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="850a0b69-ff93-47f5-87cc-325528d0cd3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/input.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/hitchhikers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/hitchhikers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/marvel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/marvel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/hitchhikers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/mine/hitchhikers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/marvel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/mine/marvel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/rings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/mine/rings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/starwars.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/mine/starwars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/mine/void.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/mine/void.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/rings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/rings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/starwars.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/starwars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test-input.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab1/output/test-input.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,6 +44,7 @@
     "Application.Main.executor": "Run",
     "Application.lab1.executor": "Run",
     "Application.lab2_task1.executor": "Run",
+    "Application.lab2_task3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,7 +69,7 @@
       <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab2_task1">
+  <component name="RunManager" selected="Application.lab2_task3">
     <configuration name="lab1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lab1.Main" />
       <module name="OOP_LABS" />
@@ -113,9 +106,28 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="lab2_task3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab2.task3.Main" />
+      <module name="OOP_LABS" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.lab1" />
       <item itemvalue="Application.lab2_task1" />
+      <item itemvalue="Application.lab2_task3" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -160,7 +172,9 @@
       <workItem from="1729499705713" duration="2871000" />
       <workItem from="1729511130418" duration="1186000" />
       <workItem from="1729538713017" duration="633000" />
-      <workItem from="1729660814492" duration="6143000" />
+      <workItem from="1729660814492" duration="7539000" />
+      <workItem from="1729674417241" duration="1053000" />
+      <workItem from="1729681156925" duration="3080000" />
     </task>
     <servers />
   </component>
