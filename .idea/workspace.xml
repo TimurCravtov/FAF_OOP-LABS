@@ -44,6 +44,7 @@
     "Application.Main.executor": "Run",
     "Application.lab1.executor": "Run",
     "Application.lab2_task1.executor": "Run",
+    "Application.lab2_task2.executor": "Run",
     "Application.lab2_task3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,7 +70,7 @@
       <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab2_task3">
+  <component name="RunManager" selected="Application.lab2_task2">
     <configuration name="lab1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lab1.Main" />
       <module name="OOP_LABS" />
@@ -106,6 +107,25 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="lab2_task2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab2.task2.Main" />
+      <module name="OOP_LABS" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/resources/lab2/somegood.txt" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration name="lab2_task3" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lab2.task3.Main" />
       <module name="OOP_LABS" />
@@ -127,6 +147,7 @@
     <list>
       <item itemvalue="Application.lab1" />
       <item itemvalue="Application.lab2_task1" />
+      <item itemvalue="Application.lab2_task2" />
       <item itemvalue="Application.lab2_task3" />
     </list>
   </component>
@@ -174,7 +195,7 @@
       <workItem from="1729538713017" duration="633000" />
       <workItem from="1729660814492" duration="7539000" />
       <workItem from="1729674417241" duration="1053000" />
-      <workItem from="1729681156925" duration="3080000" />
+      <workItem from="1729681156925" duration="11036000" />
     </task>
     <servers />
   </component>
