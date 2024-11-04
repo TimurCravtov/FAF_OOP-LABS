@@ -24,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,10 +42,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.lab1.executor": "Run",
+    "Application.lab2_task1.executor": "Run",
+    "Application.lab2_task2.executor": "Run",
+    "Application.lab2_task3.executor": "Run",
+    "Application.lab2_task4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "oop-intermediate-tasks",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/OOP_LABS/src/main/java/lab1",
     "node.js.detected.package.eslint": "true",
@@ -50,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,6 +66,111 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\OOP_LABS\src\main\java\lab1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1\output" />
+      <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.lab2_task4">
+    <configuration name="lab1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab1.Main" />
+      <module name="OOP_LABS" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="lab2_task1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab2.task1.Main" />
+      <module name="OOP_LABS" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="lab2_task2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab2.task2.Main" />
+      <module name="OOP_LABS" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/resources/lab2/somegood.txt" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="lab2_task3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab2.task3.Main" />
+      <module name="OOP_LABS" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="lab2_task4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab2.task4.Main" />
+      <module name="OOP_LABS" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/resources/lab2/somegood.txt src/main/resources/lab2/greenlight.txt src/main/resources/lab2/taken.txt" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.lab1" />
+      <item itemvalue="Application.lab2_task1" />
+      <item itemvalue="Application.lab2_task2" />
+      <item itemvalue="Application.lab2_task3" />
+      <item itemvalue="Application.lab2_task4" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,7 +211,12 @@
       <workItem from="1729101181999" duration="180000" />
       <workItem from="1729101656917" duration="47000" />
       <workItem from="1729140479019" duration="51000" />
-      <workItem from="1729499705713" duration="2352000" />
+      <workItem from="1729499705713" duration="2871000" />
+      <workItem from="1729511130418" duration="1186000" />
+      <workItem from="1729538713017" duration="633000" />
+      <workItem from="1729660814492" duration="7539000" />
+      <workItem from="1729674417241" duration="1053000" />
+      <workItem from="1729681156925" duration="11877000" />
     </task>
     <servers />
   </component>
