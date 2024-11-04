@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class TextDataThread implements Runnable {
 
-    String path;
+    private final String path;
     TextDataThread(String path) {
         this.path = path;
     }

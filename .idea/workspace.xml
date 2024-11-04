@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="850a0b69-ff93-47f5-87cc-325528d0cd3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/Americano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/Cappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/PumpkinSpiceLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/SyrupCappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/enums/Intensity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/enums/SyrupType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/Americano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/Cappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/PumpkinSpiceLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/SyrupCappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/coffeeTypes/enums/Intensity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/coffeeTypes/enums/SyrupType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/task4/TextDataThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/task4/TextDataThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -47,12 +65,16 @@
     "Application.lab2_task2.executor": "Run",
     "Application.lab2_task3.executor": "Run",
     "Application.lab2_task4.executor": "Run",
+    "Application.lab3_task1.executor": "Run",
+    "Application.lab3_task2.executor": "Run",
+    "Application.lab3_task3.executor": "Run",
+    "Application.lab3_task4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "oop-intermediate-tasks",
+    "git-widget-placeholder": "oop-advanced-tasks",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/OOP_LABS/src/main/java/lab1",
+    "last_opened_file_path": "D:/Projects/OOP_LABS/src/main/java/lab3/task4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +86,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\OOP_LABS\src\main\java\lab3\task4" />
+      <recent name="D:\Projects\OOP_LABS\src\main\java\lab3\task3" />
+      <recent name="D:\Projects\OOP_LABS\src\main\java\lab3\task2" />
       <recent name="D:\Projects\OOP_LABS\src\main\java\lab1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -71,8 +96,8 @@
       <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab2_task4">
-    <configuration name="lab1" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.lab3_task4">
+    <configuration name="lab1" type="Application" factoryName="Application" folderName="lab1">
       <option name="MAIN_CLASS_NAME" value="lab1.Main" />
       <module name="OOP_LABS" />
       <extension name="net.ashald.envfile">
@@ -90,7 +115,7 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="lab2_task1" type="Application" factoryName="Application">
+    <configuration name="lab2_task1" type="Application" factoryName="Application" folderName="lab2">
       <option name="MAIN_CLASS_NAME" value="lab2.task1.Main" />
       <module name="OOP_LABS" />
       <extension name="net.ashald.envfile">
@@ -108,7 +133,7 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="lab2_task2" type="Application" factoryName="Application">
+    <configuration name="lab2_task2" type="Application" factoryName="Application" folderName="lab2">
       <option name="MAIN_CLASS_NAME" value="lab2.task2.Main" />
       <module name="OOP_LABS" />
       <option name="PROGRAM_PARAMETERS" value="src/main/resources/lab2/somegood.txt" />
@@ -127,7 +152,7 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="lab2_task3" type="Application" factoryName="Application">
+    <configuration name="lab2_task3" type="Application" factoryName="Application" folderName="lab2">
       <option name="MAIN_CLASS_NAME" value="lab2.task3.Main" />
       <module name="OOP_LABS" />
       <extension name="net.ashald.envfile">
@@ -145,10 +170,64 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="lab2_task4" type="Application" factoryName="Application">
+    <configuration name="lab2_task4" type="Application" factoryName="Application" folderName="lab2">
       <option name="MAIN_CLASS_NAME" value="lab2.task4.Main" />
       <module name="OOP_LABS" />
       <option name="PROGRAM_PARAMETERS" value="src/main/resources/lab2/somegood.txt src/main/resources/lab2/greenlight.txt src/main/resources/lab2/taken.txt" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="lab3_task2" type="Application" factoryName="Application" folderName="lab3">
+      <option name="MAIN_CLASS_NAME" value="lab3.task2.Main" />
+      <module name="OOP_LABS" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="lab3_task3" type="Application" factoryName="Application" folderName="lab3">
+      <option name="MAIN_CLASS_NAME" value="lab3.task3.Main" />
+      <module name="OOP_LABS" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="lab3_task4" type="Application" factoryName="Application" folderName="lab3">
+      <option name="MAIN_CLASS_NAME" value="lab3.task4.Main" />
+      <module name="OOP_LABS" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -168,8 +247,11 @@
       <item itemvalue="Application.lab1" />
       <item itemvalue="Application.lab2_task1" />
       <item itemvalue="Application.lab2_task2" />
-      <item itemvalue="Application.lab2_task3" />
       <item itemvalue="Application.lab2_task4" />
+      <item itemvalue="Application.lab2_task3" />
+      <item itemvalue="Application.lab3_task4" />
+      <item itemvalue="Application.lab3_task2" />
+      <item itemvalue="Application.lab3_task3" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -216,7 +298,22 @@
       <workItem from="1729538713017" duration="633000" />
       <workItem from="1729660814492" duration="7539000" />
       <workItem from="1729674417241" duration="1053000" />
-      <workItem from="1729681156925" duration="11877000" />
+      <workItem from="1729681156925" duration="20243000" />
+      <workItem from="1729713538061" duration="678000" />
+      <workItem from="1729747174227" duration="139000" />
+      <workItem from="1729747496765" duration="1606000" />
+      <workItem from="1729751013760" duration="639000" />
+      <workItem from="1729752211433" duration="345000" />
+      <workItem from="1729757206190" duration="8000" />
+      <workItem from="1730185840239" duration="1531000" />
+      <workItem from="1730192492611" duration="634000" />
+      <workItem from="1730221624974" duration="2091000" />
+      <workItem from="1730270382682" duration="5966000" />
+      <workItem from="1730356129442" duration="101000" />
+      <workItem from="1730367077337" duration="10938000" />
+      <workItem from="1730718477968" duration="3658000" />
+      <workItem from="1730723994570" duration="3093000" />
+      <workItem from="1730754662729" duration="2723000" />
     </task>
     <servers />
   </component>
