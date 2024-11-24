@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="850a0b69-ff93-47f5-87cc-325528d0cd3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/Cappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/PumpkinSpiceLatte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/coffeeTypes/SyrupCappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/enums/Intensity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task3/enums/SyrupType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/Cappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/PumpkinSpiceLatte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/SyrupCappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/coffeeTypes/enums/Intensity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/task4/starbucks/internals/coffeeTypes/enums/SyrupType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/task4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/task4/TextDataThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/task4/TextDataThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +18,7 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,6 +53,13 @@
     "Application.lab3_task2.executor": "Run",
     "Application.lab3_task3.executor": "Run",
     "Application.lab3_task4.executor": "Run",
+    "JUnit.FunctionalQueueTest.executor": "Run",
+    "JUnit.FunctionalQueueTest.testEnqueueAndDequeue.executor": "Run",
+    "JUnit.FunctionalQueueTest.testEnqueueAndDequeueInt.executor": "Run",
+    "JUnit.GeneralQueueTest.clearTest.executor": "Run",
+    "JUnit.GeneralQueueTest.executor": "Run",
+    "JUnit.QueueTest.executor": "Run",
+    "JUnit.QueueTest.tesEnqueue.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,6 +71,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,7 +90,7 @@
       <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab3_task4">
+  <component name="RunManager" selected="JUnit.GeneralQueueTest">
     <configuration name="lab1" type="Application" factoryName="Application" folderName="lab1">
       <option name="MAIN_CLASS_NAME" value="lab1.Main" />
       <module name="OOP_LABS" />
@@ -243,6 +237,82 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="FunctionalQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_LABS" />
+      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.FunctionalQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalQueueTest.testEnqueueAndDequeueInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_LABS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crashTest.queueTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.FunctionalQueueTest" />
+      <option name="METHOD_NAME" value="testEnqueueAndDequeueInt(lab4.task1.NotJavaQueue)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="GeneralQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_LABS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crashTest.queueTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.GeneralQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="GeneralQueueTest.clearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_LABS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crashTest.queueTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.GeneralQueueTest" />
+      <option name="METHOD_NAME" value="clearTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_LABS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crashTest.queueTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.lab1" />
       <item itemvalue="Application.lab2_task1" />
@@ -252,7 +322,21 @@
       <item itemvalue="Application.lab3_task4" />
       <item itemvalue="Application.lab3_task2" />
       <item itemvalue="Application.lab3_task3" />
+      <item itemvalue="JUnit.GeneralQueueTest" />
+      <item itemvalue="JUnit.GeneralQueueTest.clearTest" />
+      <item itemvalue="JUnit.FunctionalQueueTest" />
+      <item itemvalue="JUnit.FunctionalQueueTest.testEnqueueAndDequeueInt" />
+      <item itemvalue="JUnit.QueueTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GeneralQueueTest" />
+        <item itemvalue="JUnit.GeneralQueueTest.clearTest" />
+        <item itemvalue="JUnit.FunctionalQueueTest" />
+        <item itemvalue="JUnit.FunctionalQueueTest.testEnqueueAndDequeueInt" />
+        <item itemvalue="JUnit.QueueTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -313,7 +397,13 @@
       <workItem from="1730367077337" duration="10938000" />
       <workItem from="1730718477968" duration="3658000" />
       <workItem from="1730723994570" duration="3093000" />
-      <workItem from="1730754662729" duration="2723000" />
+      <workItem from="1730754662729" duration="2980000" />
+      <workItem from="1730822676016" duration="53000" />
+      <workItem from="1731784024130" duration="4316000" />
+      <workItem from="1732031574047" duration="13000" />
+      <workItem from="1732086180536" duration="5585000" />
+      <workItem from="1732362217319" duration="4735000" />
+      <workItem from="1732391577404" duration="4756000" />
     </task>
     <servers />
   </component>
