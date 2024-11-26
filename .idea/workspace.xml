@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="850a0b69-ff93-47f5-87cc-325528d0cd3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab4/task2/PeopleDInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/crashTest/counting/CountingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Enum" />
+        <option value="Python Script" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -36,7 +38,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2n6gfcSuZiFds6W77d9Kfey3vzq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +57,8 @@
     "Application.lab3_task2.executor": "Run",
     "Application.lab3_task3.executor": "Run",
     "Application.lab3_task4.executor": "Run",
+    "JUnit.CountingTest.countDinnersForRobotsTest.executor": "Run",
+    "JUnit.CountingTest.countElectricRefuel.executor": "Run",
     "JUnit.FunctionalQueueTest.executor": "Run",
     "JUnit.FunctionalQueueTest.testEnqueueAndDequeue.executor": "Run",
     "JUnit.FunctionalQueueTest.testEnqueueAndDequeueInt.executor": "Run",
@@ -60,10 +66,11 @@
     "JUnit.GeneralQueueTest.executor": "Run",
     "JUnit.QueueTest.executor": "Run",
     "JUnit.QueueTest.tesEnqueue.executor": "Run",
+    "JUnit.ReadingJsonTest.readCarTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "oop-advanced-tasks",
+    "git-widget-placeholder": "oop-master-tasks",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Projects/OOP_LABS/src/main/java/lab3/task4",
     "node.js.detected.package.eslint": "true",
@@ -72,9 +79,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.24965517",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,8 +96,28 @@
       <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1\output" />
       <recent name="D:\Projects\OOP_LABS\src\main\resources\lab1" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="crashTest.reading" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lab4.task2" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.GeneralQueueTest">
+  <component name="RunManager" selected="JUnit.CountingTest.countElectricRefuel">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab4.task2.Main" />
+      <module name="OOP_LABS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab4.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration name="lab1" type="Application" factoryName="Application" folderName="lab1">
       <option name="MAIN_CLASS_NAME" value="lab1.Main" />
       <module name="OOP_LABS" />
@@ -237,27 +264,34 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="FunctionalQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingTest.countDinnersForRobotsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_LABS" />
-      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
-      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.FunctionalQueueTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crashTest.counting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="crashTest.counting" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.counting.CountingTest" />
+      <option name="METHOD_NAME" value="countDinnersForRobotsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="FunctionalQueueTest.testEnqueueAndDequeueInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingTest.countElectricRefuel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_LABS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crashTest.queueTest.*" />
+          <option name="PATTERN" value="crashTest.counting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
-      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.FunctionalQueueTest" />
-      <option name="METHOD_NAME" value="testEnqueueAndDequeueInt(lab4.task1.NotJavaQueue)" />
+      <option name="PACKAGE_NAME" value="crashTest.counting" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.counting.CountingTest" />
+      <option name="METHOD_NAME" value="countElectricRefuel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -268,7 +302,7 @@
       <module name="OOP_LABS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crashTest.queueTest.*" />
+          <option name="PATTERN" value="crashTest.reading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,34 +314,18 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="GeneralQueueTest.clearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadingJsonTest.readCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_LABS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crashTest.queueTest.*" />
+          <option name="PATTERN" value="crashTest.reading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
-      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.GeneralQueueTest" />
-      <option name="METHOD_NAME" value="clearTest" />
+      <option name="PACKAGE_NAME" value="crashTest.reading" />
+      <option name="MAIN_CLASS_NAME" value="crashTest.reading.ReadingJsonTest" />
+      <option name="METHOD_NAME" value="readCarTest" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_LABS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crashTest.queueTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="crashTest.queueTest" />
-      <option name="MAIN_CLASS_NAME" value="crashTest.queueTest.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
@@ -322,19 +340,19 @@
       <item itemvalue="Application.lab3_task4" />
       <item itemvalue="Application.lab3_task2" />
       <item itemvalue="Application.lab3_task3" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CountingTest.countDinnersForRobotsTest" />
+      <item itemvalue="JUnit.CountingTest.countElectricRefuel" />
       <item itemvalue="JUnit.GeneralQueueTest" />
-      <item itemvalue="JUnit.GeneralQueueTest.clearTest" />
-      <item itemvalue="JUnit.FunctionalQueueTest" />
-      <item itemvalue="JUnit.FunctionalQueueTest.testEnqueueAndDequeueInt" />
-      <item itemvalue="JUnit.QueueTest" />
+      <item itemvalue="JUnit.ReadingJsonTest.readCarTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountingTest.countElectricRefuel" />
+        <item itemvalue="JUnit.CountingTest.countDinnersForRobotsTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ReadingJsonTest.readCarTest" />
         <item itemvalue="JUnit.GeneralQueueTest" />
-        <item itemvalue="JUnit.GeneralQueueTest.clearTest" />
-        <item itemvalue="JUnit.FunctionalQueueTest" />
-        <item itemvalue="JUnit.FunctionalQueueTest.testEnqueueAndDequeueInt" />
-        <item itemvalue="JUnit.QueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +421,7 @@
       <workItem from="1732031574047" duration="13000" />
       <workItem from="1732086180536" duration="5585000" />
       <workItem from="1732362217319" duration="4735000" />
-      <workItem from="1732391577404" duration="4756000" />
+      <workItem from="1732391577404" duration="26773000" />
     </task>
     <servers />
   </component>
