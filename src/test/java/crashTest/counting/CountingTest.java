@@ -1,7 +1,7 @@
 package crashTest.counting;
 
 import lab4.task2.ElectricStation;
-import lab4.task2.PeopleDInner;
+import lab4.task2.PeopleDinner;
 import org.junit.jupiter.api.Test;
 
 import static junit.framework.Assert.assertEquals;
@@ -11,13 +11,13 @@ public class CountingTest {
 
     @Test
     void countDinnersForPeoplesTest() {
-        PeopleDInner peopleDInner = new PeopleDInner();
+        PeopleDinner peopleDInner = new PeopleDinner();
         peopleDInner.serveDinner(1);
         peopleDInner.serveDinner(2);
         peopleDInner.serveDinner(3);
         peopleDInner.serveDinner(1);
 
-        assertEquals(4, peopleDInner.getPeopleDinnerServed());
+        assertEquals(4, peopleDInner.getDinnerServed());
 
     }
 
@@ -30,7 +30,7 @@ public class CountingTest {
         electricStation.refuel(1);
         electricStation.refuel(1);
 
-        assertEquals(5, electricStation.getElectricClientRefuelCount());
+        assertEquals(5, electricStation.getRefuelCount());
 
     }
 
