@@ -1,5 +1,8 @@
 package lab4.task2;
 
+import lab4.task3.Car;
+import lab4.task3.FuelType;
+
 public class GasStation implements Refuelable {
 
 
@@ -7,6 +10,11 @@ public class GasStation implements Refuelable {
 
     public int getRefuelCount() {
         return refuelCount;
+    }
+
+    @Override
+    public boolean matches(Car car) {
+        return car.getType() == FuelType.GAS;
     }
 
     @Override

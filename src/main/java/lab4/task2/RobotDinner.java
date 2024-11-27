@@ -1,5 +1,8 @@
 package lab4.task2;
 
+import lab4.task3.Car;
+import lab4.task3.PassengersType;
+
 public class RobotDinner implements Dineable {
 
 
@@ -14,4 +17,8 @@ public class RobotDinner implements Dineable {
         return dinnerServed;
     }
 
+    @Override
+    public boolean matches(Car car) {
+        return car.getPassengers() == PassengersType.ROBOTS;
+    }
 }

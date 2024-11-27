@@ -1,6 +1,9 @@
 package lab4.task2;
 
-public class PeopleDInner implements Dineable {
+import lab4.task3.Car;
+import lab4.task3.PassengersType;
+
+public class PeopleDinner implements Dineable {
 
 
     @Override
@@ -12,6 +15,11 @@ public class PeopleDInner implements Dineable {
     private int dinnerServed = 0;
     public int getDinnerServed() {
         return dinnerServed;
+    }
+
+    @Override
+    public boolean matches(Car car) {
+        return car.getPassengers() == PassengersType.PEOPLE;
     }
 
 }
