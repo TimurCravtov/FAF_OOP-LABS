@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Semaphore {
+public class Semaphore extends TimerTask {
     private final List<CarStation> carStationList;
     private String highWaySrc; // directory of the queue folder;
 
@@ -55,6 +55,7 @@ public class Semaphore {
                 }
             }
         }
+
         return possibleStations.stream().min(Comparator.comparingLong(CarStation::getQueueLength)).orElse(null);
     }
 
@@ -98,5 +99,10 @@ public class Semaphore {
 
     public List<CarStation> getCarStationList() {
         return carStationList;
+    }
+
+    @Override
+    public void run() {
+        distributeHighwayCarsToQueues(true);
     }
 }

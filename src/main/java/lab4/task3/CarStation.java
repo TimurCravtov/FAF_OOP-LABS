@@ -5,7 +5,9 @@ import lab4.task1.SaneQueue;
 import lab4.task2.Dineable;
 import lab4.task2.Refuelable;
 
-public class CarStation {
+import java.util.TimerTask;
+
+public class CarStation extends TimerTask {
 
     private static int carStationCount = 0;
     private final int carStationId;
@@ -13,13 +15,23 @@ public class CarStation {
     private final Dineable dineableService;
     private final Refuelable refuelableService;
 
-    private NotJavaQueue<Car> queue;
+    private final NotJavaQueue<Car> queue;
 
+    /**
+     * Default NotJavaQueue implementation is SaneQueue
+     */
     public CarStation(Dineable dineableService, Refuelable refuelableService) {
         this.dineableService = dineableService;
         carStationId = carStationCount++;
         this.refuelableService = refuelableService;
         queue = new SaneQueue<>();
+    }
+
+    public CarStation(Dineable dineableService, Refuelable refuelableService, NotJavaQueue<Car> queue) {
+        this.dineableService = dineableService;
+        carStationId = carStationCount++;
+        this.refuelableService = refuelableService;
+        this.queue = queue;
     }
 
     public int getDineableServiceClientCount() {
@@ -31,14 +43,20 @@ public class CarStation {
     }
 
     public void serveCars() {
-        while (queue.peek() != null) {
-            Car carToServe = queue.dequeue();
-            refuelableService.refuel(carToServe.getId());
-            if (carToServe.isDining()) dineableService.serveDinner(carToServe.getId());
+
+        synchronized (queue) {
+            while (queue.peek() != null) {
+                Car carToServe = queue.dequeue();
+                refuelableService.refuel(carToServe.getId());
+                if (carToServe.isDining()) dineableService.serveDinner(carToServe.getId());
+            }
         }
+
     }
     public void addCar(Car car) {
-        queue.enqueue(car);
+        synchronized (queue) {
+            queue.enqueue(car);
+        }
     }
 
     public Class<?> getDinnerServiceType() {
@@ -63,6 +81,13 @@ public class CarStation {
 
 
     public long getQueueLength() {
-        return queue.getSize();
+        synchronized (queue) {
+            return queue.getSize();
+        }
+    }
+
+    @Override
+    public void run() {
+        serveCars();
     }
 }

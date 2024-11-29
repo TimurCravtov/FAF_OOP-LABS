@@ -1,5 +1,6 @@
 package crashTest.reading;
 
+import lab4.task1.DontReinventTheWheelQueue;
 import lab4.task2.ElectricStation;
 import lab4.task2.GasStation;
 import lab4.task2.PeopleDinner;
@@ -37,7 +38,7 @@ public class SemaphoreTest {
         CarStation robotsElectric = new CarStation(new RobotDinner(), new ElectricStation());
         CarStation robotsGas = new CarStation(new RobotDinner(), new GasStation());
         CarStation peopleElectric = new CarStation(new PeopleDinner(), new ElectricStation());
-        CarStation peopleGas = new CarStation(new PeopleDinner(), new GasStation());
+        CarStation peopleGas = new CarStation(new PeopleDinner(), new GasStation(), new DontReinventTheWheelQueue<>());
 
         semaphore.addStation(robotsElectric);
         semaphore.addStation(robotsGas);
